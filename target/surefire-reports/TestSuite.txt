@@ -1,0 +1,85 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 9, Errors: 0, Skipped: 4, Time elapsed: 238.612 s <<< FAILURE! - in TestSuite
+accountCreation(PracticeSelenium.SeleniumFrameworkDesign.accountCreationTest)  Time elapsed: 9.295 s  <<< FAILURE!
+graphql.AssertException: condition expected to be true
+	at PracticeSelenium.SeleniumFrameworkDesign.accountCreationTest.accountCreation(accountCreationTest.java:35)
+
+purchaseNewCustomer(PracticeSelenium.SeleniumFrameworkDesign.purchaseNewCustomerTest)  Time elapsed: 6.361 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='action showcart']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bf3b92451ebdbf9b0aa40183f6c9086, findElement {using=xpath, value=//a[@class='action showcart']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\CEDRIC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65134}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65134/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bf3b92451ebdbf9b0aa40183f6c9086
+	at PracticeSelenium.SeleniumFrameworkDesign.purchaseNewCustomerTest.purchaseNewCustomer(purchaseNewCustomerTest.java:34)
+
+accountCreation(PracticeSelenium.SeleniumFrameworkDesign.accountCreationTest)  Time elapsed: 7.579 s  <<< FAILURE!
+graphql.AssertException: condition expected to be true
+	at PracticeSelenium.SeleniumFrameworkDesign.accountCreationTest.accountCreation(accountCreationTest.java:35)
+
+MultipleItemsPurchase(PracticeSelenium.SeleniumFrameworkDesign.purchaseExistingCustomerTest)  Time elapsed: 2.271 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='ko_unique_1']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce52d358078e583baec28cc7b98975d4, findElement {using=xpath, value=//input[@name='ko_unique_1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\CEDRIC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65133}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65133/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce52d358078e583baec28cc7b98975d4
+	at PracticeSelenium.SeleniumFrameworkDesign.purchaseExistingCustomerTest.MultipleItemsPurchase(purchaseExistingCustomerTest.java:73)
+
+purchaseNewCustomer(PracticeSelenium.SeleniumFrameworkDesign.purchaseNewCustomerTest)  Time elapsed: 16.216 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8b0329c1cdfc86d7cc08aff4cac26ac1, sendKeysToElement {id=CEF26D2BCC25744C0B4798398A752CA2_element_99, value=[Ljava.lang.CharSequence;@31c889b9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\CEDRIC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65220}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65220/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8b0329c1cdfc86d7cc08aff4cac26ac1)] -> xpath: //input[@name='street[0]']]
+Session ID: 8b0329c1cdfc86d7cc08aff4cac26ac1
+	at PracticeSelenium.SeleniumFrameworkDesign.purchaseNewCustomerTest.purchaseNewCustomer(purchaseNewCustomerTest.java:35)
+
+purchaseExistingCustomer(PracticeSelenium.SeleniumFrameworkDesign.purchaseExistingCustomerTest)  Time elapsed: 16.68 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='action showcart']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d208bf031e8bc3e951f11149ff75454, findElement {using=xpath, value=//a[@class='action showcart']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\CEDRIC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65327/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d208bf031e8bc3e951f11149ff75454
+	at PracticeSelenium.SeleniumFrameworkDesign.purchaseExistingCustomerTest.purchaseExistingCustomer(purchaseExistingCustomerTest.java:46)
+
+purchaseExistingCustomer(PracticeSelenium.SeleniumFrameworkDesign.purchaseExistingCustomerTest)  Time elapsed: 16.687 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='action showcart']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [121c54a27bf025c6097f129e2dcb8db4, findElement {using=xpath, value=//a[@class='action showcart']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\CEDRIC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65400}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65400/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 121c54a27bf025c6097f129e2dcb8db4
+	at PracticeSelenium.SeleniumFrameworkDesign.purchaseExistingCustomerTest.purchaseExistingCustomer(purchaseExistingCustomerTest.java:46)
+
+OrderHistoryTest(PracticeSelenium.SeleniumFrameworkDesign.purchaseExistingCustomerTest)  Time elapsed: 8.065 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at PracticeSelenium.SeleniumFrameworkDesign.purchaseExistingCustomerTest.OrderHistoryTest(purchaseExistingCustomerTest.java:86)
+
+OrderHistoryTest(PracticeSelenium.SeleniumFrameworkDesign.purchaseExistingCustomerTest)  Time elapsed: 7.411 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at PracticeSelenium.SeleniumFrameworkDesign.purchaseExistingCustomerTest.OrderHistoryTest(purchaseExistingCustomerTest.java:86)
+

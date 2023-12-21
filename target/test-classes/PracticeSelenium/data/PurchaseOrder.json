@@ -1,0 +1,15 @@
+[
+{
+    "email": "RedRanger@aol.com",
+    "password": "Password1!",
+    "product": "Hero Hoodie",
+    "product2": "Argus All-Weather Tank"
+},
+
+{
+    "email": "GreenRanger@aol.com",
+    "password": "Password1!",
+    "product": "Argus All-Weather Tank",
+    "product2": "Hero Hoodie"
+}
+]

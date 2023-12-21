@@ -1,0 +1,22 @@
+[{
+    "firstName": "Murdock",
+    "lastName": "Matt",
+    "email": "matt.murdock@aol.com",
+    "password": "Password1!",
+    "address" : "SMC road",
+	"city": "Eron",
+	"zip" :"23366-1282",
+	"phone" :"07455825973",
+	"product": "Hero Hoodie"
+},
+{
+    "firstName": "molly",
+    "lastName": "mock",
+    "email": "molly.mock@aol.com",
+    "password": "Password1!",
+    "address" : "test road",
+	"city": "Eron",
+	"zip" :"27826-2622",
+	"phone" :"0786873634",
+	"product": "Hero Hoodie"
+}]

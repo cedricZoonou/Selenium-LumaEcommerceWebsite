@@ -1,0 +1,11 @@
+PracticeSelenium\pageobjects\myAccountPage.class
+PracticeSelenium\pageobjects\menProductPage.class
+PracticeSelenium\pageobjects\landingPage.class
+PracticeSelenium\pageobjects\myOrdersPage.class
+PracticeSelenium\resources\ExtentReporterNG.class
+PracticeSelenium\pageobjects\checkoutPage.class
+PracticeSelenium\pageobjects\checkoutShipping.class
+PracticeSelenium\pageobjects\confirmationOrderPage.class
+PracticeSelenium\AbstractComponents\AbstractComponent.class
+PracticeSelenium\pageobjects\orderPage.class
+PracticeSelenium\pageobjects\registrationPage.class
